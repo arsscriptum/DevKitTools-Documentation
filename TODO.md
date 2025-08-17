@@ -1,0 +1,341 @@
+# DOCUMENTATION TODO LIST
+
+## List of Categories (completed)
+ - [ ] Debugging
+ - [ ] Deployment
+ - [ ] Development
+ - [ ] Signing
+ - [ ] Testing
+
+## Executable Documentation Completion List
+
+### Debugging
+
+  - accevent.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - dxcapsviewer.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - espexe.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - filtdump.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - filtreg.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - ftquery.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - gamesaveutil.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - graphedt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - ifilttst.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - inspect.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - jsconstraintdebug.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - mftrace.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - oleview.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - TB3x.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - topoedit.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - tracefmt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - tracelog.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - tracepdb.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - traceview.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - tracewpp.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vsdiagview.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vshadow.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vssagent.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vsstrace.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vstorcontrol.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - vswriter.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wsddebug_client.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wsddebug_host.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wstracedump.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wstraceutil.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wsutil.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+
+### Deployment
+
+  - DeployUtil.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - isxps.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - rc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - cppwinrt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - StoreUploader.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+
+### Development
+
+  - apivalidator.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - cppwinrt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - ctrpp.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - dxc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - fxc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - genmanifest.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - makepri.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - mbidgenerator.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - mc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - mdmerge.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - midl.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - midlc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - midlrt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - muirct.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - rc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - regwinmd.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - uuidgen.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - winmdidl.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wsdcodegen.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+
+### Signing
+
+  - cert2spc.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - certmgr.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - makeappx.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - makecat.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - makecert.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - PackageEditor.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - pktextract.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - pvk2pfx.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - signtool.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - stampinf.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - mt.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+
+### Testing
+
+  - adpcmencode3.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - aitstatic.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - betest.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - cameraprofiletool.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - ComparePackage.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - computerhardwareids.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - convert-moftoprovider.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - extidgen.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - filetypeverifier.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - StoreUploader.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - xpsanalyzer.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - xpsconverter.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples
+  - wmimofck.exe
+     - [ ] Overview
+     - [ ] Syntax
+     - [ ] Examples

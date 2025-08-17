@@ -8,11 +8,10 @@
 
 <h4>Overview</h4>
 
-This is a program that...
 
 <h4>Purpose</h4>
 
-The purpose is...
+
 
 <h4>Syntax</h4>
 
