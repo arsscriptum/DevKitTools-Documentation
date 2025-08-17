@@ -1,7 +1,6 @@
-# $${\color{cyan}Deployment Tools}$$
+$${\color{cyan}Development Tools}$$
 
-Tools to assist in deployment, installation, and updating of Windows applications.
-
+**Compilers, linkers, and tools for building Windows desktop, UWP, and driver applications. Resource editors and utilities for managing application assets.**
 
 <div id="cppwinrtexe"><h2>cppwinrt.exe</h2></div>
 
