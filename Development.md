@@ -15,11 +15,13 @@ A command-line tool for validating Windows API usage within application binaries
 Checks that applications only use APIs allowed for their target platform and compliance profile (e.g., UWP, Store apps).
 
 <h4>Syntax</h4>
+
 ```bash
 apivalidator.exe [options] <binary>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 apivalidator.exe myapp.exe
 ```
@@ -34,11 +36,13 @@ C++/WinRT code generator and toolset.
 Generates modern C++ projection headers for WinRT APIs, allowing developers to consume and implement WinRT components in C++.
 
 <h4>Syntax</h4>
+
 ```bash
 cppwinrt.exe [options] [inputs]
 ```
 
 <h4>Examples</h4>
+
 ```bash
 cppwinrt.exe -input winmds -output generated
 ```
@@ -53,11 +57,13 @@ Control Panel Resource Protocol Processor.
 Processes resource definition files for event tracing providers and generates C/C++ code and resource scripts.
 
 <h4>Syntax</h4>
+
 ```bash
 ctrpp.exe <input.man> [options]
 ```
 
 <h4>Examples</h4>
+
 ```bash
 ctrpp.exe events.man
 ```
@@ -72,11 +78,13 @@ DirectX Shader Compiler.
 Compiles HLSL shader code into binary format for DirectX 12 and supports new shader features.
 
 <h4>Syntax</h4>
+
 ```bash
 dxc.exe <file.hlsl> [options]
 ```
 
 <h4>Examples</h4>
+
 ```bash
 dxc.exe shader.hlsl -T ps_6_0 -Fo shader.cso
 ```
@@ -91,11 +99,13 @@ Legacy DirectX HLSL Shader Compiler.
 Compiles HLSL shader files into DirectX 9, 10, or 11 bytecode.
 
 <h4>Syntax</h4>
+
 ```bash
 fxc.exe /T <profile> /E <entrypoint> /Fo <output> <input.hlsl>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 fxc.exe /T ps_5_0 /E main /Fo pixel.cso pixel.hlsl
 ```
@@ -110,11 +120,13 @@ Manifest file generator.
 Generates manifest files for resource configuration and registration.
 
 <h4>Syntax</h4>
+
 ```bash
 genmanifest.exe [options] <input>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 genmanifest.exe app.config
 ```
@@ -129,11 +141,13 @@ PRI (Package Resource Index) file generator.
 Creates .pri files that package app resources for UWP and modern Windows applications.
 
 <h4>Syntax</h4>
+
 ```bash
 makepri.exe new /ProjectRoot <path> /ConfigXml <file> /OutputFile <output>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 makepri.exe new /ProjectRoot . /ConfigXml priconfig.xml /OutputFile resources.pri
 ```
@@ -148,11 +162,13 @@ Media Bundle ID generator.
 Generates unique IDs for media resource bundles.
 
 <h4>Syntax</h4>
+
 ```bash
 mbidgenerator.exe [options] <input>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 mbidgenerator.exe mymedia.bundle
 ```
@@ -167,11 +183,13 @@ Message Compiler.
 Compiles message resource files (.mc) for use in Windows event logging and message DLLs.
 
 <h4>Syntax</h4>
+
 ```bash
 mc.exe [options] <file.mc>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 mc.exe myevents.mc
 ```
@@ -186,11 +204,13 @@ Managed Assembly Merger.
 Merges multiple .NET metadata files into a single assembly for use in Windows development.
 
 <h4>Syntax</h4>
+
 ```bash
 mdmerge.exe [options] <input> <output>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 mdmerge.exe input1.dll input2.dll merged.dll
 ```
@@ -205,11 +225,13 @@ Microsoft Interface Definition Language (MIDL) compiler.
 Compiles .idl files to produce type libraries, header files, and code for COM interfaces.
 
 <h4>Syntax</h4>
+
 ```bash
 midl.exe [options] <file.idl>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 midl.exe myinterface.idl
 ```
@@ -224,11 +246,13 @@ MIDL C Compiler front-end.
 Provides C-language parsing and code generation for .idl files.
 
 <h4>Syntax</h4>
+
 ```bash
 midlc.exe [options] <file.idl>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 midlc.exe myinterface.idl
 ```
@@ -243,11 +267,13 @@ MIDL Runtime compiler.
 Generates code for runtime support of COM and RPC interfaces.
 
 <h4>Syntax</h4>
+
 ```bash
 midlrt.exe [options] <file.idl>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 midlrt.exe myinterface.idl
 ```
@@ -262,11 +288,13 @@ Multilingual User Interface Resource Compiler Tool.
 Generates and manages resource files for multilingual application support.
 
 <h4>Syntax</h4>
+
 ```bash
 muirct.exe [options] <input>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 muirct.exe app.resources
 ```
@@ -281,11 +309,13 @@ Resource Compiler.
 Compiles resource script files (.rc) into binary resource files for linking into Windows applications.
 
 <h4>Syntax</h4>
+
 ```bash
 rc.exe [options] <file.rc>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 rc.exe myapp.rc
 ```
@@ -300,11 +330,13 @@ Windows Metadata Registration Tool.
 Registers and manages Windows metadata (.winmd) files for use by the Windows Runtime.
 
 <h4>Syntax</h4>
+
 ```bash
 regwinmd.exe [options] <winmd-file>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 regwinmd.exe MyComponent.winmd
 ```
@@ -319,11 +351,13 @@ UUID Generator.
 Generates a new universally unique identifier (UUID/GUID).
 
 <h4>Syntax</h4>
+
 ```bash
 uuidgen.exe [options]
 ```
 
 <h4>Examples</h4>
+
 ```bash
 uuidgen.exe
 ```
@@ -338,11 +372,13 @@ Windows Metadata IDL Extractor.
 Extracts IDL from Windows Metadata (.winmd) files.
 
 <h4>Syntax</h4>
+
 ```bash
 winmdidl.exe [options] <file.winmd>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 winmdidl.exe MyComponent.winmd
 ```
@@ -357,11 +393,13 @@ Web Services for Devices (WSD) Code Generator.
 Generates proxy and stub code for web services device protocols.
 
 <h4>Syntax</h4>
+
 ```bash
 wsdcodegen.exe [options] <input.wsdl>
 ```
 
 <h4>Examples</h4>
+
 ```bash
 wsdcodegen.exe service.wsdl
 ```
