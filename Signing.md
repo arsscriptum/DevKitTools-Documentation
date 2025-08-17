@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="img/deployment.png" alt="deployment" />
+  <img src="img/signing.png" alt="signing" />
 </div>
-Tools to assist in deployment, installation, and updating of Windows applications.
 
-<div id="deployutil"><h2>DeployUtil.exe</h2></div>
+**Utilities for signing binaries, verifying digital signatures, and managing certificates (e.g., signtool.exe). Tools for creating and inspecting appx/msix packages.**
+
+<div id="cert2spc"><h2>cert2spc.exe</h2></div>
 
 <h4>Overview</h4>
 
@@ -31,7 +32,7 @@ bla
 <hr>
 
 
-<div id="isxps"><h2>isxps.exe</h2></div>
+<div id="certmgr"><h2>certmgr.exe</h2></div>
 
 <h4>Overview</h4>
 

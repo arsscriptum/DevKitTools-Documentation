@@ -1,9 +1,11 @@
 <div align="center">
-  <img src="img/deployment.png" alt="deployment" />
+  <img src="img/debugging.png" alt="debugging" />
 </div>
-Tools to assist in deployment, installation, and updating of Windows applications.
 
-<div id="deployutil"><h2>DeployUtil.exe</h2></div>
+**Tools for low-level debugging, such as ```windbg.exe``` and crash dump analysis utilities. Tools for symbol management, memory dumps, and log collection.**
+
+
+<div id="accevent"><h2>accevent.exe</h2></div>
 
 <h4>Overview</h4>
 
@@ -31,7 +33,7 @@ bla
 <hr>
 
 
-<div id="isxps"><h2>isxps.exe</h2></div>
+<div id="dxcapsviewer"><h2>dxcapsviewer.exe</h2></div>
 
 <h4>Overview</h4>
 

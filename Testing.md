@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="img/deployment.png" alt="deployment" />
+  <img src="img/testing.png" alt="testing" />
 </div>
-Tools to assist in deployment, installation, and updating of Windows applications.
 
-<div id="deployutil"><h2>DeployUtil.exe</h2></div>
+**Tools to validate application and driver compatibility. Profiling, tracing, and performance measurement utilities.**
+
+<div id="adpcmencode3"><h2>adpcmencode3.exe</h2></div>
 
 <h4>Overview</h4>
 
@@ -31,7 +32,7 @@ bla
 <hr>
 
 
-<div id="isxps"><h2>isxps.exe</h2></div>
+<div id="aitstatic"><h2>aitstatic.exe</h2></div>
 
 <h4>Overview</h4>
 
