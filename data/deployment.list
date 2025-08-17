@@ -1,0 +1,7 @@
+
+
+- [DeployUtil.exe](Deployment.md#deployutil)
+- [isxps.exe](Deployment.md#isxps)
+- [rc.exe](Deployment.md#rc)        (also listed in Development, sometimes cross-purpose)
+- [cppwinrt.exe](Deployment.md#cppwinrt)  (also listed in Development, for WinRT deployment)
+- [StoreUploader.exe](Deployment.md#storeuploader) (can be both Testing and Deployment)

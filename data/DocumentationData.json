@@ -1,0 +1,109 @@
+{
+  "Id": "Documentation",
+  "CategoryList": [
+    {
+      "CategoryName": "Debugging",
+      "ProgramList": [
+        "accevent.exe",
+        "dxcapsviewer.exe",
+        "espexe.exe",
+        "filtdump.exe",
+        "filtreg.exe",
+        "ftquery.exe",
+        "gamesaveutil.exe",
+        "graphedt.exe",
+        "ifilttst.exe",
+        "inspect.exe",
+        "jsconstraintdebug.exe",
+        "mftrace.exe",
+        "oleview.exe",
+        "TB3x.exe",
+        "topoedit.exe",
+        "tracefmt.exe",
+        "tracelog.exe",
+        "tracepdb.exe",
+        "traceview.exe",
+        "tracewpp.exe",
+        "vsdiagview.exe",
+        "vshadow.exe",
+        "vssagent.exe",
+        "vsstrace.exe",
+        "vstorcontrol.exe",
+        "vswriter.exe",
+        "wsddebug_client.exe",
+        "wsddebug_host.exe",
+        "wstracedump.exe",
+        "wstraceutil.exe",
+        "wsutil.exe"
+      ]
+    },
+    {
+      "CategoryName": "Deployment",
+      "ProgramList": [
+        "DeployUtil.exe",
+        "isxps.exe",
+        "rc.exe",
+        "cppwinrt.exe",
+        "StoreUploader.exe"
+      ]
+    },
+    {
+      "CategoryName": "Development",
+      "ProgramList": [
+        "apivalidator.exe",
+        "cppwinrt.exe",
+        "ctrpp.exe",
+        "dxc.exe",
+        "fxc.exe",
+        "genmanifest.exe",
+        "makepri.exe",
+        "mbidgenerator.exe",
+        "mc.exe",
+        "mdmerge.exe",
+        "midl.exe",
+        "midlc.exe",
+        "midlrt.exe",
+        "muirct.exe",
+        "rc.exe",
+        "regwinmd.exe",
+        "uuidgen.exe",
+        "winmdidl.exe",
+        "wsdcodegen.exe"
+      ]
+    },
+    {
+      "CategoryName": "Signing",
+      "ProgramList": [
+        "cert2spc.exe",
+        "certmgr.exe",
+        "makeappx.exe",
+        "makecat.exe",
+        "makecert.exe",
+        "PackageEditor.exe",
+        "pktextract.exe",
+        "pvk2pfx.exe",
+        "signtool.exe",
+        "stampinf.exe",
+        "mt.exe"
+      ]
+    },
+    {
+      "CategoryName": "Testing",
+      "ProgramList": [
+        "adpcmencode3.exe",
+        "aitstatic.exe",
+        "betest.exe",
+        "cameraprofiletool.exe",
+        "ComparePackage.exe",
+        "computerhardwareids.exe",
+        "convert-moftoprovider.exe",
+        "extidgen.exe",
+        "filetypeverifier.exe",
+        "StoreUploader.exe",
+        "xpsanalyzer.exe",
+        "xpsconverter.exe",
+        "wmimofck.exe"
+      ]
+    }
+  ]
+}
